@@ -101,7 +101,7 @@ This project implements a backend system for a freelancer platform, similar to F
 ## Authentication
 
 -   All protected routes require a valid JWT in the `Authorization` header.
--   The JWT should be in the format `Bearer <token>`.
+-   The JWT should be in the format `<token>`.
 
 ## Future Enhancements
 
