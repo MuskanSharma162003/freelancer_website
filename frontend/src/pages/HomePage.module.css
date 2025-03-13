@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    text-align: center;
+    padding: 60px; 
+    background: linear-gradient(135deg, #e0f2fe, #f0f8ff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main h1 {
+    color: #2c3e50; 
+    margin-bottom: 25px;
+    font-size: 3em; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.main p {
+    color: #555;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    line-height: 1.6; 
+}
+
+.section {
+    margin: 50px auto;
+    max-width: 700px; 
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.section h2 {
+    color: #34495e;
+    margin-bottom: 30px;
+    font-size: 2em;
+    border-bottom: 2px solid #ecf0f1; 
+    padding-bottom: 15px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    margin: 20px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #3498db, #2980b9); /* Gradient button */
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transitions */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.button:active {
+    transform: translateY(1px); 
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}

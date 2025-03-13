@@ -1,0 +1,88 @@
+.container {
+    width: 90%;
+    transform: translateY(20%);
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container h1 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container input,
+.container textarea,
+.container button {
+    padding: 12px 14px; 
+    margin-bottom: 18px; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    font-size: 1em;
+    transition: border-color 0.3s ease; 
+}
+
+.container textarea {
+    font-size: 1.3em;
+    min-height: 120px; 
+    resize: none;
+}
+
+.container input:focus,
+.container textarea:focus {
+    outline: none;
+    border-color: #3498db; 
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); 
+}
+
+.container input::placeholder,
+.container textarea::placeholder {
+    font-size: 0.95em; 
+    color: #aaa; 
+    font-style: italic;
+   
+}
+
+.container button {
+    background-color: #3498db; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px; 
+    border-radius: 8px;
+    font-weight: 600; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.container button:hover {
+    background-color: #2980b9; 
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.container p.error {
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.loading {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
